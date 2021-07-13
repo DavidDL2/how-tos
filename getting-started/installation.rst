@@ -38,6 +38,7 @@ by adding the following to either one of those files:
     export EPICS_BASE=${HOME}/EPICS/epics-base
     export EPICS_HOST_ARCH=$(${EPICS_BASE}/startup/EpicsHostArch)
     export PATH=${EPICS_BASE}/bin/${EPICS_HOST_ARCH}:${PATH}
+    export CA_ADDR_LIST = <ipAddress of CA Server>
 
 EpicsHostArch is a program provided by EPICS that returns the architecture 
 of your system. 
